@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Estrakt</title>
+  <script src="https://kit.fontawesome.com/8eb708a9f2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="bg-blob"></div>
+<div id="blur"></div>
+<header>
+  <div class="header-mini">
+    <img id="logo" src="https://estrakt.com/wp-content/uploads/2023/09/logo2.png">
+
+    <div id="search-bar-container">
+      <form id="search" class="search-bar">
+        <div class="input-container">
+          <input placeholder="Search Articles" type="text" value required></input>
+          <button>
+            <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="header-mini">
+    <div class="categories">
+      <a href="#" class="category-button button-blue">TECH</a>
+      <a href="#" class="category-button button-orange">ENTERTAINMENT</a>
+      <a href="#" class="category-button button-red">GAMING</a>
+      <button id="burger-menu">
+        <i class="fa-solid fa-bars fa-2xl burger-logo"></i>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main>
+  <div id="first-content">
+    <div id="first-left">
+      <div class="headline-image active"></div>
+      <div class="headline-image"></div>
+      <div class="headline-image"></div>
+    </div>
+    <div id="first-right">
+      <h1 id="trending-heading">Trending Today</h1>
+      <div id="trending-tags">
+        <div class="trending-tag active">
+          <div class="tag-content">
+            <h1>Overwatch 2</h1>
+            <h2>1 Hour Ago</h2>
+          </div>
+        </div>
+        <div class="trending-tag">
+          <div class="tag-content">
+            <h1>Pokemon</h1>
+            <h2>3 Hours Ago</h2>
+          </div>
+        </div>
+        <div class="trending-tag">
+          <div class="tag-content">
+            <h1>Call of Duty</h1>
+            <h2>10 Hours Ago</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
